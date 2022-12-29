@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+    body{
+        margin: 0px;
+        background: #e1e0c0;
+    }
+
+    .top{
+        top: 0;
+        background: #641a17;
+        position: fixed;
+        width: 100%;
+        
+    }
+ 
+
+    .top h1{
+        margin-left: 20px;
+        color:  #e1e0c0 ;
+        font-family: 'Lobster';
+    }
+
+    .top span{
+        font-size: 25px;
+    }
+
+    .bar{
+        width: 100%;
+        height:25px;
+        
+        
+    }
+
+    .bar ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        font-family: 'Roboto-mono';
+        background:  #e1e0c0 ;   
+        color: #641a17;
+        border: 4px solid  #e1e0c0 ;
+           
+    }
+
+
+    .bar ul li{
+        justify-content: space-between;
+        
+    }
+
+    .container{
+        margin-top: 200px;
+        display: flex;
+        background: #e1e0c0;
+        justify-content: space-evenly;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .info-nuka{
+        
+        background: #641a17;
+        width: 50%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .info-nuka p{
+        color: #e1e0c0;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .nukas{
+        padding: 20px;
+        background: #e1e0c0;
+        border-radius: 10px;
+        width: 50%;
+        margin: 10px;
+    }
+
+    a{
+        color:#641a17;
+        text-decoration: none;
+    }
+
+    footer{
+        padding: 10px;
+        color: #e1e0c0;
+        height: 25px;
+        width: 100%;
+        background: #641a17;
+        position: absolute;
+        text-align: center;   
+    }
+
+    h2{
+        color: #641a17;
+        font-family: 'Roboto-mono';
+    }
+
+   
+
+   
+</style>
+<body>
+    <div class="top"> 
+        <header>
+            <div class="titulo">
+                <h1>Nuka Cola <span>&copy;</span></h1>
+            </div>
+        </header>
+        <div class="bar">
+            <nav>
+                <ul>
+                    <li><a href="quantum.html"><strong>QUANTUM</strong></a></li>
+                    <li><a href="#"><strong>CLASSIC</strong></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>   
+    <div class="container">
+        <div class="nukas">
+            <h2>ONLY FOR $1</h2>
+            <img src="https://i.pinimg.com/564x/86/f6/78/86f6784b67b85c2e3f1dcfc93f69f41a.jpg" width="500px" alt="nuka1"> 
+        </div>
+        <div class="nukas">
+            <img src="https://i.pinimg.com/564x/7a/95/4b/7a954be3c7ab1eba7c3139e4a6f34c31.jpg" width="500px" alt="nuka">
+        </div>
+    </div>   
+    <footer>
+        &copy;Nuka Cola original 2044
+    </footer>
+</body>
+</html>
